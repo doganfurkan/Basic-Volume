@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Basic Volume",
+    "description": "The name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Basic Volume izlediğiniz veya dinlediğiniz medyanın ses seviyesini kontrol etmenizi sağlayan basit bir ses kontrol uzantısıdır.",
+    "description": "The description of the extension"
+  },
+  "audioVolume": {
+    "message": "Ses",
+    "description": "The audio volume label"
+  },
+  "about": {
+    "message": "Hakkında",
+    "description": "The about message"
+  },
+  "faqQuestion1": {
+    "message": "Basic Volume nedir?",
+    "description": "The first question of the FAQ"
+  },
+  "faqAnswer1": {
+    "message": "Basic Volume, tarayıcınızda tükettiğiniz medyanın ses seviyesini kontrol etmenizi sağlayan bir uzantıdır. Hafif ve gizlilik odaklı olması amaçlanmıştır.",
+    "description": "The answer of the first question of the FAQ"
+  },
+  "faqQuestion2": {
+    "message": "Bir öneriniz mi var ya da bir hata mı buldunuz?",
+    "description": "The second question of the FAQ"
+  },
+  "faqAnswer2": {
+    "message": "Sorunları bildirin ve iyileştirmeler önerin:",
+    "description": "The answer of the second question of the FAQ"
+  },
+  "faqQuestion3": {
+    "message": "Geliştiriciye ulaşmak ister misiniz?",
+    "description": "The third question of the FAQ"
+  },
+  "faqAnswer3": {
+    "message": "Geliştiriciye aşağıdaki e-posta adresinden ulaşabilirsiniz:",
+    "description": "The answer of the third question of the FAQ"
+  },
+  "faqQuestion4": {
+    "message": "Uzantıyı beğendiniz mi?",
+    "description": "The fourth question of the FAQ"
+  },
+  "faqAnswer4": {
+    "message": "Basic Volume'u beğendiniz mi? Bize 5 yıldızlı bir değerlendirme yaparak ve arkadaşlarınızla paylaşarak bizi destekleyin!",
+    "description": "The answer of the fourth question of the FAQ"
+  },
+  "languageSelect": {
+    "message": "Dil Seçimi",
+    "description": "The select language input"
+  },
+  "defaultLanguage": {
+    "message": "Tarayıcı Dili",
+    "description": "The default language"
+  }
+}

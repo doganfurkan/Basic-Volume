@@ -1,0 +1,125 @@
+main {
+  padding: 0 20px;
+}
+
+.collapseGroup {
+  border: 1px solid var(--borderColor);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+details {
+  font-size: 0.9rem;
+}
+
+details > summary {
+  padding: 16px;
+  cursor: pointer;
+  background: var(--bgSubtle);
+  font-weight: 500;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+summary:hover {
+  background: hsl(0, 0, 50);
+}
+
+summary::after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: url("assets/caret-down.svg") no-repeat;
+  background-size: cover;
+  transition: 0.2s;
+  flex-shrink: 0;
+}
+
+summary::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0000;
+}
+
+summary:hover::before {
+  background: #0001;
+}
+
+body.dark summary::before {
+  background: #fff0;
+}
+
+body.dark summary:hover::before {
+  background: #fff1;
+}
+
+details[open] > summary {
+  border-bottom: 1px solid var(--borderColor);
+}
+
+details[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+body.dark details > summary {
+  background: hsl(197, 100%, 9%);
+}
+
+body.dark details > summary::after {
+  filter: invert(100%);
+}
+
+details + details {
+  border-top: 1px solid var(--borderColor);
+}
+
+details p {
+  padding: 16px;
+  line-height: 1.35;
+}
+
+details p a {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+#copyEmail {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background: transparent;
+  padding: 4px 8px;
+  border-radius: 24px;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+#copyEmail:hover {
+  background: var(--bgSubtle);
+}
+
+center {
+  margin-top: 16px;
+}
+
+.languageSelect {
+  margin-block-start: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#languageSelect {
+    padding: 8px;
+    border: 1px solid var(--borderColor);
+    border-radius: 4px;
+    font-family: inherit;
+    background: var(--bg);
+}

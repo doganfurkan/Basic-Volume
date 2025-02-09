@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Volume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="mainHeader">
+      <h1 class="logo" data-i18n="extensionName"></h1>
+      <nav class="mainNav">
+        <a href="about.html">
+          <img src="assets/info.svg" alt="About" />
+        </a>
+        <button id="themeSwitcher">
+          <img src="assets/moon.svg" alt="Theme Switch" />
+        </button>
+        <button id="v" class="resetButton"><img src="assets/arrow-counter-clockwise.svg" alt="Reset"></button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="audioContainer">
+        <div class="volumeHeader">
+          <label for="volume" data-i18n="audioVolume"></label>
+          <div class="volumeValueContainer">
+            <input
+              type="number"
+              name="volumeRange"
+              id="volume"
+              class="volumeValue"
+              value="100"
+            />
+            <span>%</span>
+          </div>
+        </div>
+        <div class="rangeContainer">
+          <input
+            type="range"
+            name="volume"
+            id="volumeRange"
+            min="0"
+            max="600"
+            value="100"
+            step="1"
+          />
+        </div>
+      </section>
+    </main>
+
+    <script src="theme.js"></script>
+    <script src="index.js"></script>
+    <script src="localize.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Basic Volume",
+    "description": "The name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Basic Volume is a simple volume control extension for your browser.",
+    "description": "The description of the extension"
+  },
+  "audioVolume": {
+    "message": "Audio Volume",
+    "description": "The audio volume label"
+  },
+  "about": {
+    "message": "About",
+    "description": "The about message"
+  },
+  "faqQuestion1": {
+    "message": "What is Basic Volume?",
+    "description": "The first question of the FAQ"
+  },
+  "faqAnswer1": {
+    "message": "Basic Volume is an extension that allows you to control audio volume for the media you consume on your browser. It is meant to be lightweight and privacy focused.",
+    "description": "The answer of the first question of the FAQ"
+  },
+  "faqQuestion2": {
+    "message": "Have a suggestion or found a bug?",
+    "description": "The second question of the FAQ"
+  },
+  "faqAnswer2": {
+    "message": "Report issues and suggest improvements here:",
+    "description": "The answer of the second question of the FAQ"
+  },
+  "faqQuestion3": {
+    "message": "Do you want to reach the developer?",
+    "description": "The third question of the FAQ"
+  },
+  "faqAnswer3": {
+    "message": "You can reach the developer at the following email address:",
+    "description": "The answer of the third question of the FAQ"
+  },
+  "faqQuestion4": {
+    "message": "Did you like the extension?",
+    "description": "The fourth question of the FAQ"
+  },
+  "faqAnswer4": {
+    "message": "Enjoying Basic Volume? Support us by giving a 5-star review and sharing with friends!",
+    "description": "The answer of the fourth question of the FAQ"
+  },
+  "languageSelect": {
+    "message": "Select Language",
+    "description": "The select language input"
+  },
+  "defaultLanguage": {
+    "message": "Browser Language",
+    "description": "The default language"
+  }
+}

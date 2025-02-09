@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="mainHeader">
+      <h1 data-i18n="about"></h1>
+      <nav>
+        <button id="themeSwitcher">
+          <img src="./assets/moon.svg" alt="dark theme" />
+        </button>
+        <a href="index.html" style="text-decoration: none">
+          <img src="./assets/arrow-left.svg" alt="back" />
+        </a>
+      </nav>
+    </header>
+    <main>
+      <div class="collapseGroup">
+        <details open>
+          <summary data-i18n="faqQuestion1"></summary>
+          <p data-i18n="faqAnswer1"></p>
+        </details>
+
+        <details>
+          <summary data-i18n="faqQuestion2"></summary>
+          <p>
+            <span data-i18n="faqAnswer2"></span>
+            <a
+              href="https://github.com/doganfurkan/basic-notes/issues"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/doganfurkan/basic-notes/issues
+            </a>
+          </p>
+        </details>
+
+        <details>
+          <summary data-i18n="faqQuestion3"></summary>
+          <p>
+            <span data-i18n="faqAnswer3"></span>
+            <a href="mailto:devfurk@gmail.com" target="_blank">
+              devfurk@gmail.com
+            </a> <button id="copyEmail">Copy the Address</button>
+          </p>
+        </details>
+
+        <details>
+          <summary data-i18n="faqQuestion4"></summary>
+          <p data-i18n="faqAnswer4"></p>
+        </details>
+      </div>
+      <div class="languageSelect">
+        <label for="languageSelect" data-i18n="languageSelect"></label>
+        <select name="languageSelect" id="languageSelect">
+          <option value="default" data-i18n="defaultLanguage"></option>
+          <option value="en">English</option>
+          <option value="tr">Türkçe</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+          <option value="es">Espãnol</option>
+          <option value="pt">Português</option>
+          <option value="ru">Русский</option>
+          <option value="ko">한국인</option>
+          <option value="ja">日本語</option>
+          <option value="zh">中国人</option>
+          <option value="ar">عربى</option>
+        </select>
+      </div>
+      <center>Basic Volume <span id="version"></span></center>
+    </main>
+    <script src="theme.js"></script>
+    <script src="about.js"></script>
+    <script src="localize.js"></script>
+  </body>
+</html>

@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url("fonts/DMSans.ttf") format("truetype");
+}
+
+:root {
+  --bg: #fff;
+  --bgSubtle: #f4f4f4;
+  --borderColor: #e0e0e0;
+  --filterBtn: #001219;
+  --primary: #00aff5;
+  --textClr: #272727;
+  --value: 16.67%;
+  --rangeBg: #ccc;
+}
+
+body.dark {
+  --bg: #001219;
+  --bgSubtle: #0a5976;
+  --borderColor: #003a52;
+  --filterBtn: #f4f4f4;
+  --textClr: #f4f4f4;
+  --rangeBg: #999;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-family: DM Sans, sans-serif;
+  background: transparent;
+  border: 0;
+}
+
+html {
+  width: 400px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--textClr);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  appearance: button;
+  cursor: pointer;
+  display: flex;
+  background: transparent;
+  border: 0;
+}
+
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+.mainHeader {
+  display: flex;
+  align-items: center;
+  padding: 20px 24px;
+  justify-content: space-between;
+}
+
+.mainHeader h1 {
+  font-size: 2em;
+  margin: 0.625em 0;
+  font-weight: 200;
+  line-height: 1.75rem;
+}
+
+header > nav {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  padding: 5px 0;
+}
+
+header > nav > button,
+header > nav > a {
+  padding: 12px;
+  background: transparent;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  display: grid;
+  place-content: center;
+}
+
+header > nav > button:hover,
+header > nav > a:hover {
+  background: var(--bgSubtle);
+}
+
+.mainHeader > nav > button img,
+.mainHeader > nav > a img {
+  width: 24px;
+}
+
+body.dark .mainHeader > nav > button > img,
+body.dark .mainHeader > nav > a > img {
+  filter: invert(100%);
+}
+
+.resetButton {
+  width: 48px;
+  height: 48px;
+  background: var(--primary);
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  font-size: 1.75rem;
+}
+
+.resetButton img{
+  filter: invert(100%);
+}
+
+.resetButton:hover {
+  background: hsl(197, 100%, 40%);
+}
+
+.rangeContainer {
+  display: grid;
+  place-items: center;
+  height: 10px;
+}
+
+input[type="range"] {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    var(--primary) 0%,
+    var(--primary) var(--value),
+    var(--rangeBg) var(--value) 100%
+  );
+  outline: none;
+  border-radius: 20px;
+  transition: height 0.15s;
+  position: relative;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  border: 2px solid var(--bg);
+  transition: height 0.15s, width 0.15s;
+}
+
+input[type="range"]:focus #myrange::-webkit-slider-thumb:focus {
+  outline: 1px dotted #000;
+}
+
+input[type="range"]:hover {
+  cursor: grab;
+  height: 6px;
+}
+
+input[type="range"]:active {
+  cursor: grabbing;
+  height: 6px;
+  --primary: hsl(197, 100%, 40%);
+}
+
+input[type="range"]:active::-webkit-slider-thumb,
+input[type="range"]:hover::-webkit-slider-thumb {
+  height: 24px;
+  width: 24px;
+}
+
+input[type="range"]:active::-webkit-slider-thumb {
+  background-color: hsl(197, 100%, 40%);
+}
+
+main {
+  padding: 0 24px;
+  display: grid;
+  padding-block-end: 32px;
+}
+
+section.audioContainer {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.volumeHeader {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: flex;
+  gap: 1rem;
+}
+
+.volumeValueContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background: var(--bgSubtle);
+  width: calc(4ch + 24px);
+}
+
+input[type="number"] {
+  appearance: textfield;
+  --webkit-appearance: textfield;
+  font-size: inherit;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  padding: 4px 8px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.volumeValueContainer span {
+  padding: 0 8px 0 0;
+}
