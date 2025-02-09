@@ -1,0 +1,58 @@
+{  
+  "extensionName": {  
+    "message": "基本音量",  
+    "description": "The name of the extension"  
+  },  
+  "extensionDescription": {  
+    "message": "基本音量是一个简单的浏览器音量控制扩展。",  
+    "description": "The description of the extension"  
+  },  
+  "audioVolume": {  
+    "message": "音频音量",  
+    "description": "The audio volume label"  
+  },  
+  "about": {  
+    "message": "关于",  
+    "description": "The about message"  
+  },  
+  "faqQuestion1": {  
+    "message": "什么是基本音量？",  
+    "description": "The first question of the FAQ"  
+  },  
+  "faqAnswer1": {  
+    "message": "基本音量是一个可以控制浏览器中媒体音量的扩展。它旨在轻便且注重隐私。",  
+    "description": "The answer of the first question of the FAQ"  
+  },  
+  "faqQuestion2": {  
+    "message": "有建议或发现了bug吗？",  
+    "description": "The second question of the FAQ"  
+  },  
+  "faqAnswer2": {  
+    "message": "请在此报告问题并提出改进建议：",  
+    "description": "The answer of the second question of the FAQ"  
+  },  
+  "faqQuestion3": {  
+    "message": "想联系开发者吗？",  
+    "description": "The third question of the FAQ"  
+  },  
+  "faqAnswer3": {  
+    "message": "您可以通过以下电子邮件地址联系开发者：",  
+    "description": "The answer of the third question of the FAQ"  
+  },  
+  "faqQuestion4": {  
+    "message": "喜欢这个扩展吗？",  
+    "description": "The fourth question of the FAQ"  
+  },  
+  "faqAnswer4": {  
+    "message": "喜欢基本音量吗？请支持我们，留下五星好评并与朋友分享！",  
+    "description": "The answer of the fourth question of the FAQ"  
+  },  
+  "languageSelect": {  
+    "message": "选择语言",  
+    "description": "The select language input"  
+  },  
+  "defaultLanguage": {  
+    "message": "浏览器语言",  
+    "description": "The default language"  
+  }  
+}  

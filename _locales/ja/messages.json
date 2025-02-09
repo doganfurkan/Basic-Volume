@@ -1,0 +1,58 @@
+{  
+  "extensionName": {  
+    "message": "ベーシックボリューム",  
+    "description": "The name of the extension"  
+  },  
+  "extensionDescription": {  
+    "message": "ベーシックボリュームは、ブラウザーで音量を簡単に調整できるシンプルな拡張機能です。",  
+    "description": "The description of the extension"  
+  },  
+  "audioVolume": {  
+    "message": "オーディオ音量",  
+    "description": "The audio volume label"  
+  },  
+  "about": {  
+    "message": "概要",  
+    "description": "The about message"  
+  },  
+  "faqQuestion1": {  
+    "message": "ベーシックボリュームとは何ですか？",  
+    "description": "The first question of the FAQ"  
+  },  
+  "faqAnswer1": {  
+    "message": "ベーシックボリュームは、ブラウザーで再生するメディアの音量を調整できる拡張機能です。軽量でプライバシーを重視して設計されています。",  
+    "description": "The answer of the first question of the FAQ"  
+  },  
+  "faqQuestion2": {  
+    "message": "提案やバグの報告がありますか？",  
+    "description": "The second question of the FAQ"  
+  },  
+  "faqAnswer2": {  
+    "message": "問題を報告したり、改善提案をするにはこちらをご利用ください:",  
+    "description": "The answer of the second question of the FAQ"  
+  },  
+  "faqQuestion3": {  
+    "message": "開発者に連絡したいですか？",  
+    "description": "The third question of the FAQ"  
+  },  
+  "faqAnswer3": {  
+    "message": "以下のメールアドレスで開発者に連絡できます:",  
+    "description": "The answer of the third question of the FAQ"  
+  },  
+  "faqQuestion4": {  
+    "message": "この拡張機能は気に入りましたか？",  
+    "description": "The fourth question of the FAQ"  
+  },  
+  "faqAnswer4": {  
+    "message": "ベーシックボリュームを楽しんでいますか？ 5つ星のレビューを投稿し、友達と共有してサポートしてください！",  
+    "description": "The answer of the fourth question of the FAQ"  
+  },  
+  "languageSelect": {  
+    "message": "言語を選択",  
+    "description": "The select language input"  
+  },  
+  "defaultLanguage": {  
+    "message": "ブラウザーの言語",  
+    "description": "The default language"  
+  }  
+}  

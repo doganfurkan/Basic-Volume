@@ -1,0 +1,58 @@
+{  
+  "extensionName": {  
+    "message": "Volume Basique",  
+    "description": "The name of the extension"  
+  },  
+  "extensionDescription": {  
+    "message": "Volume Basique est une extension simple de contrôle du volume pour votre navigateur.",  
+    "description": "The description of the extension"  
+  },  
+  "audioVolume": {  
+    "message": "Volume Audio",  
+    "description": "The audio volume label"  
+  },  
+  "about": {  
+    "message": "À propos",  
+    "description": "The about message"  
+  },  
+  "faqQuestion1": {  
+    "message": "Qu'est-ce que Volume Basique ?",  
+    "description": "The first question of the FAQ"  
+  },  
+  "faqAnswer1": {  
+    "message": "Volume Basique est une extension qui vous permet de contrôler le volume audio des médias que vous consommez sur votre navigateur. Elle est conçue pour être légère et respectueuse de la vie privée.",  
+    "description": "The answer of the first question of the FAQ"  
+  },  
+  "faqQuestion2": {  
+    "message": "Vous avez une suggestion ou avez trouvé un bug ?",  
+    "description": "The second question of the FAQ"  
+  },  
+  "faqAnswer2": {  
+    "message": "Signalez les problèmes et suggérez des améliorations ici :",  
+    "description": "The answer of the second question of the FAQ"  
+  },  
+  "faqQuestion3": {  
+    "message": "Vous souhaitez contacter le développeur ?",  
+    "description": "The third question of the FAQ"  
+  },  
+  "faqAnswer3": {  
+    "message": "Vous pouvez contacter le développeur à l'adresse e-mail suivante :",  
+    "description": "The answer of the third question of the FAQ"  
+  },  
+  "faqQuestion4": {  
+    "message": "Vous aimez l'extension ?",  
+    "description": "The fourth question of the FAQ"  
+  },  
+  "faqAnswer4": {  
+    "message": "Vous aimez Volume Basique ? Soutenez-nous en laissant un avis 5 étoiles et en le partageant avec vos amis !",  
+    "description": "The answer of the fourth question of the FAQ"  
+  },  
+  "languageSelect": {  
+    "message": "Sélectionner la langue",  
+    "description": "The select language input"  
+  },  
+  "defaultLanguage": {  
+    "message": "Langue du navigateur",  
+    "description": "The default language"  
+  }  
+}  

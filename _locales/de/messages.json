@@ -1,0 +1,58 @@
+{  
+  "extensionName": {  
+    "message": "Basislautstärke",  
+    "description": "The name of the extension"  
+  },  
+  "extensionDescription": {  
+    "message": "Basislautstärke ist eine einfache Erweiterung zur Lautstärkeregelung für deinen Browser.",  
+    "description": "The description of the extension"  
+  },  
+  "audioVolume": {  
+    "message": "Audio-Lautstärke",  
+    "description": "The audio volume label"  
+  },  
+  "about": {  
+    "message": "Über",  
+    "description": "The about message"  
+  },  
+  "faqQuestion1": {  
+    "message": "Was ist Basislautstärke?",  
+    "description": "The first question of the FAQ"  
+  },  
+  "faqAnswer1": {  
+    "message": "Basislautstärke ist eine Erweiterung, mit der du die Lautstärke der Audioinhalte steuern kannst, die du in deinem Browser konsumierst. Sie ist leichtgewichtig und datenschutzorientiert.",  
+    "description": "The answer of the first question of the FAQ"  
+  },  
+  "faqQuestion2": {  
+    "message": "Hast du einen Vorschlag oder einen Fehler gefunden?",  
+    "description": "The second question of the FAQ"  
+  },  
+  "faqAnswer2": {  
+    "message": "Melde Probleme und schlage Verbesserungen hier vor:",  
+    "description": "The answer of the second question of the FAQ"  
+  },  
+  "faqQuestion3": {  
+    "message": "Möchtest du den Entwickler kontaktieren?",  
+    "description": "The third question of the FAQ"  
+  },  
+  "faqAnswer3": {  
+    "message": "Du kannst den Entwickler unter folgender E-Mail-Adresse erreichen:",  
+    "description": "The answer of the third question of the FAQ"  
+  },  
+  "faqQuestion4": {  
+    "message": "Hat dir die Erweiterung gefallen?",  
+    "description": "The fourth question of the FAQ"  
+  },  
+  "faqAnswer4": {  
+    "message": "Gefällt dir Basislautstärke? Unterstütze uns, indem du eine 5-Sterne-Bewertung hinterlässt und es mit deinen Freunden teilst!",  
+    "description": "The answer of the fourth question of the FAQ"  
+  },  
+  "languageSelect": {  
+    "message": "Sprache auswählen",  
+    "description": "The select language input"  
+  },  
+  "defaultLanguage": {  
+    "message": "Browsersprache",  
+    "description": "The default language"  
+  }  
+}  

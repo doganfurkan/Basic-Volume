@@ -1,0 +1,58 @@
+{  
+  "extensionName": {  
+    "message": "الصوت الأساسي",  
+    "description": "The name of the extension"  
+  },  
+  "extensionDescription": {  
+    "message": "الصوت الأساسي هو امتداد بسيط للتحكم في الصوت لمتصفحك.",  
+    "description": "The description of the extension"  
+  },  
+  "audioVolume": {  
+    "message": "مستوى الصوت",  
+    "description": "The audio volume label"  
+  },  
+  "about": {  
+    "message": "حول",  
+    "description": "The about message"  
+  },  
+  "faqQuestion1": {  
+    "message": "ما هو الصوت الأساسي؟",  
+    "description": "The first question of the FAQ"  
+  },  
+  "faqAnswer1": {  
+    "message": "الصوت الأساسي هو امتداد يسمح لك بالتحكم في مستوى الصوت للوسائط التي تستهلكها في متصفحك. تم تصميمه ليكون خفيف الوزن ويركز على الخصوصية.",  
+    "description": "The answer of the first question of the FAQ"  
+  },  
+  "faqQuestion2": {  
+    "message": "هل لديك اقتراح أو وجدت خطأ؟",  
+    "description": "The second question of the FAQ"  
+  },  
+  "faqAnswer2": {  
+    "message": "قم بالإبلاغ عن المشاكل واقترح التحسينات هنا:",  
+    "description": "The answer of the second question of the FAQ"  
+  },  
+  "faqQuestion3": {  
+    "message": "هل تريد التواصل مع المطور؟",  
+    "description": "The third question of the FAQ"  
+  },  
+  "faqAnswer3": {  
+    "message": "يمكنك التواصل مع المطور عبر عنوان البريد الإلكتروني التالي:",  
+    "description": "The answer of the third question of the FAQ"  
+  },  
+  "faqQuestion4": {  
+    "message": "هل أعجبتك الإضافة؟",  
+    "description": "The fourth question of the FAQ"  
+  },  
+  "faqAnswer4": {  
+    "message": "هل تستمتع بالصوت الأساسي؟ دعمنا من خلال إعطاء تقييم 5 نجوم ومشاركته مع أصدقائك!",  
+    "description": "The answer of the fourth question of the FAQ"  
+  },  
+  "languageSelect": {  
+    "message": "اختيار اللغة",  
+    "description": "The select language input"  
+  },  
+  "defaultLanguage": {  
+    "message": "لغة المتصفح",  
+    "description": "The default language"  
+  }  
+}  

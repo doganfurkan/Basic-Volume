@@ -1,0 +1,58 @@
+{  
+  "extensionName": {  
+    "message": "Volumen Básico",  
+    "description": "The name of the extension"  
+  },  
+  "extensionDescription": {  
+    "message": "Volumen Básico es una extensión simple para controlar el volumen en tu navegador.",  
+    "description": "The description of the extension"  
+  },  
+  "audioVolume": {  
+    "message": "Volumen de Audio",  
+    "description": "The audio volume label"  
+  },  
+  "about": {  
+    "message": "Acerca de",  
+    "description": "The about message"  
+  },  
+  "faqQuestion1": {  
+    "message": "¿Qué es Volumen Básico?",  
+    "description": "The first question of the FAQ"  
+  },  
+  "faqAnswer1": {  
+    "message": "Volumen Básico es una extensión que te permite controlar el volumen del audio de los medios que consumes en tu navegador. Está diseñada para ser ligera y enfocada en la privacidad.",  
+    "description": "The answer of the first question of the FAQ"  
+  },  
+  "faqQuestion2": {  
+    "message": "¿Tienes alguna sugerencia o encontraste un error?",  
+    "description": "The second question of the FAQ"  
+  },  
+  "faqAnswer2": {  
+    "message": "Reporta problemas y sugiere mejoras aquí:",  
+    "description": "The answer of the second question of the FAQ"  
+  },  
+  "faqQuestion3": {  
+    "message": "¿Quieres ponerte en contacto con el desarrollador?",  
+    "description": "The third question of the FAQ"  
+  },  
+  "faqAnswer3": {  
+    "message": "Puedes ponerte en contacto con el desarrollador a través del siguiente correo electrónico:",  
+    "description": "The answer of the third question of the FAQ"  
+  },  
+  "faqQuestion4": {  
+    "message": "¿Te ha gustado la extensión?",  
+    "description": "The fourth question of the FAQ"  
+  },  
+  "faqAnswer4": {  
+    "message": "¿Estás disfrutando de Volumen Básico? ¡Apóyanos dejando una reseña de 5 estrellas y compartiéndola con tus amigos!",  
+    "description": "The answer of the fourth question of the FAQ"  
+  },  
+  "languageSelect": {  
+    "message": "Seleccionar idioma",  
+    "description": "The select language input"  
+  },  
+  "defaultLanguage": {  
+    "message": "Idioma del navegador",  
+    "description": "The default language"  
+  }  
+}  
