@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   chrome.storage.local.get("globalVolume", (data) => {
-    updateRange("volumeRange", Number(data.globalVolume * 100) ?? 100);
+    updateRange("volumeRange", data.globalVolume ? Number(data.globalVolume * 100) : 100);
   });
 });
 
