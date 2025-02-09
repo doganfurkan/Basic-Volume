@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   chrome.storage.local.get("globalVolume", (data) => {
-    updateRange("volumeRange", data.globalVolume ? Number(data.globalVolume * 100) : 100);
+    updateRange("volumeRange", data.globalVolume ? Math.round(data.globalVolume * 100) : 100);
   });
 });
 
@@ -26,7 +26,7 @@ updateRange = (id, value) => {
   document.getElementById(id).style.setProperty("--value", `${value / 6}%`);
   document.getElementById(id).value = value;
   document.querySelector(`input[type=number][name=${id}]`).value = value;
-  var volume = parseFloat(value / 100);
+  var volume = parseFloat(Math.round(value) / 100);
   chrome.storage.local.set({ globalVolume: volume });
 
   chrome.tabs.query({}, (tabs) => {

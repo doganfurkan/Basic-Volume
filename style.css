@@ -155,6 +155,15 @@ input[type="range"] {
   position: relative;
 }
 
+:dir(rtl) input[type="range"]{
+  background: linear-gradient(
+    to left,
+    var(--primary) 0%,
+    var(--primary) var(--value),
+    var(--rangeBg) var(--value) 100%
+  );
+}
+
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
@@ -240,5 +249,5 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .volumeValueContainer span {
-  padding: 0 8px 0 0;
+  padding-inline-end: 8px;
 }
