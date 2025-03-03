@@ -13,7 +13,7 @@
     "default_title": "Basic Volume"
   },
   "default_locale": "en",
-  "permissions": ["storage", "tabs"],
+  "permissions": ["storage"],
   "host_permissions": ["<all_urls>"],
   "browser_specific_settings": {
     "gecko": {
