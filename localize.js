@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("[data-i18n]").forEach(async (el) => {
     const messageKey = el.getAttribute("data-i18n");
     var localizedText = await localize(messageKey);
-    console.log(localizedText);
     if (localizedText) {
       if (el.hasAttribute("placeholder")) {
         el.setAttribute("placeholder", localizedText);
@@ -23,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function localize(messageKey) {
   var localized;
-  console.log("here");
   if (localStorage.getItem("prefferedLanguage") === "default" || messageKey === "defaultLanguage") {
     localized = chrome.i18n.getMessage(messageKey);
   } else {
@@ -37,7 +35,6 @@ async function localize(messageKey) {
         localized = messages[messageKey].message;
       });
   }
-  console.log(localized);
   checkRTL();
   return localized;
 }
